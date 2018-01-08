@@ -25,8 +25,6 @@ In other words, please, only use sett from now on; and use `cobblestone` only fo
 
 And then there is the even more attrocious `surface=cobblestone:flattened`; still in use for around 4k ways. The wiki says on this that _this is neither a correct name, like sett (cobblestone is by definition not shaped into any form), nor a colloquially used name, like cobblestone._ In other words, a tag that should not be used anymore and be translated to `sett`.
 
-At last a word on `paving_stones`: the consensus here is that these are modern, mechanically shaped to neatly fit. The can be cast from concrete, they can be natural stones that are cut in a specific shape, ... The distinction with sett can be small. I'd also consider brick roads as paving stones, but I'd tag those as `surface=brick`. Anyway, I'm digressing from the main point: sett.
-
 ## Cobblestone 
 
 As already discussed: cobblestone is somewhat chaotic in natura, as can be seen in this image (again, from Wikipedia).
@@ -57,7 +55,7 @@ These can be laid down in various patterns, as described belowed.
 
 The first, and most common type of sett are the 'big boulders': the big, rectangular sett stones, in a interleaved pattern like a brick wall. As these are the most common stones, I didn't bother to add more tagging to them.
 
-TODO: picture
+![](https://github.com/pietervdvn/OSMand-Routing/raw/master/Kasseien/NormalSett.jpg)
 
 ## Arc
 
@@ -95,9 +93,7 @@ This is the *only* street in Bruges that still has this pattern! There used to b
 
 Although square sett is mostly used for foothpaths, it is sometimes used for shorter streets or speed tables as well. The square sett can be used interleaved, as here:
 
-![]()
-
-...
+TODO image
 
 ## Square without pattern tag
 
@@ -107,7 +103,16 @@ Although square sett is mostly used for foothpaths, it is sometimes used for sho
 
 ... or used in a straight way, as here:
 
-![]()
+![](https://github.com/pietervdvn/OSMand-Routing/raw/master/Kasseien/StraightSquare.jpg)
+
+# Paving stones
+
+
+At last a word on `paving_stones`: the consensus here is that these are (in general) modern, mechanically shaped to neatly fit. The can be cast from concrete, they can be natural stones that are cut in a specific shape, ... For example, I consider brick roads to be a subclass of paving stones (but I'd tag it as `surface=brick` anyway).
+
+The distinction with sett can be very small and subjective. For example, I have been doubting what to call the following:
+
+![](https://github.com/pietervdvn/OSMand-Routing/raw/master/Kasseien/PavingOrSett.jpg)
 
 # In conclusion: a nice map to see
 
